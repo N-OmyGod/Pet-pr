@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/body-back.jpg');
+    background-size: cover;
+}
+.content-wrapper{
+    width: 90%;
+    height: 800px;
+    background-image: url('./img/dark-background2.jpg');
+    background-size: cover;
+    border-radius: 30px;
+    margin-top:58px ;
+    box-shadow: 0 0 30px rgb(0 0 0 / 64%);
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.logo-text{
+    font-family:sans-serif;
+    font-size: 20pt;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 140px;
+    height: 60px;
+    color:white;
+    text-decoration: none;
+    user-select: none;
+    margin-left: 20px;
+}
+.header-logo:hover{
+    background-color: rgba(33, 4, 61, 0.6);
+    border-radius: 10px;
+}
+.buttons{
+    margin-left:auto ;
+    margin-right: 50px;
+}
+.header-button{
+    font-size:20pt;
+    background: none;
+    border:none;
+    margin-right: 35px;
+    color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.header-button:hover{
+    background-color: rgba(33, 4, 61, 0.6);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.menu{
+    width: 24px;
+    height: 23px;
+    background:none;
+    border:none;
+    background-image: url('./img/menu.png');
+    background-size: cover;
+}
+.menu:hover{
+    background-color: rgba(33, 4, 61, 0.6);
+    cursor: pointer;
+}

@@ -6,7 +6,7 @@ body{
     background-size: cover;
 }
 .content-wrapper{
-    width: 90%;
+    width: 89%;
     height: 800px;
     background-image: url('./img/dark-background2.jpg');
     background-size: cover;
@@ -46,7 +46,7 @@ body{
     margin-right: 50px;
 }
 .header-button{
-    font-size:20pt;
+    font-size:17pt;
     background: none;
     border:none;
     margin-right: 35px;
@@ -70,4 +70,38 @@ body{
 .menu:hover{
     background-color: rgba(33, 4, 61, 0.6);
     cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    font-family: sans-serif;
+}
+
+.content-text{
+    font-size:31pt;
+    
+    margin-top: 77px;
+
+   
+}
+.content-text1{
+    margin-top: 10px;
+    font-size:19pt;
+
+   
+}
+.content-button{
+    margin-top: 40px;
+    width: 163px;
+    height: 41px;
+    background-color: rgba(211, 81, 223, 1);
+    border: none;
+    color: white;
+    font-size: 13pt;
+    font-family: sans-serif;
+    padding-bottom: 6px;
 }

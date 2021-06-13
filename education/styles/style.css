@@ -2,13 +2,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./img/body-back.jpg');
+    background-image: url('../img/body-back.jpg');
     background-size: cover;
 }
 .content-wrapper{
     width: 89%;
     height: 800px;
-    background-image: url('./img/dark-background2.jpg');
+    background-image: url('../img/dark-background2.jpg');
     background-size: cover;
     border-radius: 30px;
     margin-top:58px ;
@@ -64,7 +64,7 @@ body{
     height: 23px;
     background:none;
     border:none;
-    background-image: url('./img/menu.png');
+    background-image: url('../img/menu.png');
     background-size: cover;
 }
 .menu:hover{
@@ -82,20 +82,20 @@ body{
 }
 
 .content-text{
-    font-size:31pt;
+    font-size:30pt;
     
     margin-top: 77px;
 
    
 }
 .content-text1{
-    margin-top: 10px;
-    font-size:19pt;
+    margin-top: 9px;
+    font-size:17pt;
 
    
 }
 .content-button{
-    margin-top: 40px;
+    margin-top: 37px;
     width: 163px;
     height: 41px;
     background-color: rgba(211, 81, 223, 1);

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "DoHyeon";
+    src: url("../fonts/Do_Hyeon/DoHyeon-Regular.ttf");
+}
+.date-buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+.date-button{
+    border: none;
+    font-family: "DoHyeon" ;
+    font-size: 15pt;
+    width: 145px;
+    height: 35px;
+    color: aliceblue;
+    background-color: rgba(226, 118, 46, 0.733);
+    cursor: pointer;
+    margin: 0 40px;
+}
+
+.big-span{
+    font-size: 30pt;
+}
+.list-span{
+    font-size: 19pt;
+}
+.calendar{
+    margin-top: 15px;
+}
+.items-wrapper{
+    margin-top:20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 69px;
+    height: 53px;
+}
